@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+#main{
+	background-color: #333;
+}
+.row{
+	background-color: #fff;
+	
+}
+header {
+	background-color: #333;
+}
+header h1 {
+	color: #eee;
+	font-family: 'Jockey One', sans-serif;
+}
+#cover-slide {
+
+}
+#cover-slide ul{
+	margin-top: 20px;
+	height: 200px;
+    overflow: hidden;
+    z-index: 10;
+    border-bottom: 2px solid red;
+    
+}
+#cover-slide li{
+	display: inline-block;
+	width: 19%;	
+	overflow: hidden;
+	z-index: 0
+}
+
+#cover-slide li{	
+	margin-bottom: 2em;
+	transform: rotate(5deg);
+	
+	border-right: 1px solid #333;
+}
+
+#cover-slide li:last-child {
+	border-right: 0px solid #fff;
+}
